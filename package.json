@@ -1,0 +1,33 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Final project | AMART Shop - Handmade e-shop for personal work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alehampau/AMART_Shop.git"
+  },
+  "keywords": [
+    "FRONTEND",
+    "|",
+    "SCOALA",
+    "INFORMALA",
+    "|",
+    "HTML",
+    "|",
+    "CSS",
+    "|",
+    "JS",
+    "|",
+    "HANDMADE"
+  ],
+  "author": "ALEXANDRA HAMPAU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alehampau/AMART_Shop/issues"
+  },
+  "homepage": "https://github.com/alehampau/AMART_Shop#readme"
+}
