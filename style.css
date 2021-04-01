@@ -31,12 +31,11 @@ header button{
 }
 
 #header_btn{
-    display: inline;
-    align-items: right;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
     margin-left: 65%;
     padding-top : 40px;
-    justify-content: space-between;
-
 }
 
 button:hover{
@@ -89,6 +88,7 @@ body hr {
     align-items: center;
     margin-left : 80px;
     margin-right : 80px;
+    margin-top : 10px;
     border : 3px solid brown;
     border-radius : 5px;
     gap: 10px;
@@ -139,6 +139,7 @@ body hr {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding-bottom : 5px;
 }
 .card-button {
     padding : 8px;
