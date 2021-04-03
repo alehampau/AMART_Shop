@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <title>AMART Shop</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href = "index.html"><img src = "images/logo.png"></a>
+        </div>    
+        <div id="header_btn" class="header_btn">
+            <button id = "shopping_cart"><a href="cart.html"><i class="fa fa-shopping-basket"></i></a>Cos de cumparaturi</button>
+            <br>
+            <!-- <button id = "admin" href="admin.html"><i class="fa fa-user-lock"></i> Administrare</button> -->
+            <a href = "admin.html"><i class="fa fa-shopping-basket"></i>Administrare</a>
+        </div>
+    </header>
+    <hr>
+    <div id="navbar">
+        <div class = "navbar">
+            <div id = "navbar_content">
+                <button><a href = "index.html"><i class="fas fa-home"></i> Acasa</a></button>
+            </div>
+            <div id = "navbar_content">
+                <button><a href = "about_us.html"><i class="fas fa-fan"></i> Despre noi</a></button>
+            </div>
+            <div id = "navbar_content">
+                <button><a href = "#" class = "dropdown_list"><i class="far fa-caret-square-down"></i> Categorii de produse</a></button>
+            </div>
+            <div id = "navbar_content">
+                <button><a href = "contact_us.html"><i class="fas fa-file-signature"></i> Contacteaza-ne!</a></button>
+            </div>
+        </div> 
+    </div>
+    <hr> 
+    <h2 class="banner">Va multumim pentru mesaj, </h2>
+   <div class="contact-page">
+       <div class= "contact-details">
+       <div class="contact-title">Trimite-ne un mesaj ! </div>
+       <form class="contact-form" id="contact-form">
+           <input type="text" class="contact-form-page" placeholder="Nume si prenume" id="first_lastName">
+           <div id="nameError" class="error"></div>
+           <input type="text" class="contact-form-page" placeholder="Numar de telefon" id ="phoneNumber">
+           <textarea class="contact-form-page" placeholder="Mesajul tau aici..." id="textarea"></textarea>
+           <div id="lastNameError" class="error"></div>
+           <div id="messageError" class="error"></div>
+           <p>Am citit <a href = "terms.html" value = "Termeni si Conditii"  target="_blank">"Termeni si Conditii"</a> precum si <a href = "rdpd.html" value = "Politica de Prelucrare a Datelor Personale"  target="_blank">"Politica de Prelucrare a Datelor Personale"</a>.</p> 
+              <input type="radio" id="yes-no" name="answer" value="yes">
+              <label for="yes">Da</label><br>
+              <input type="radio" id="yes-no" name="answer" value="no">
+              <label for="no">Nu</label><br><br>
+           <input type="button" class="contact-button"  id = "submit" value="Send">
+     </form>
+ </div>
+    <footer>
+        <hr>
+        <div id="contact">
+            <div class="rights">
+                <br>
+                <h5>2021 Toate drepturile rezervate</h5>
+            </div>
+            <div class="icons">
+                <h5>Urmareste noutatile</h5>
+                <a href = "http://www.facebook.com/amartshop"><i class="fa fa-facebook"></i></a>
+                <a href = "http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <hr>
+    </footer>
+<script src = "src/app.js" type = "module"></script>
+<script src = "src/contact_us.js"></script>
+</body>
+</html>
