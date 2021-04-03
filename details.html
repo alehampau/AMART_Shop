@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="node_modules/bootswatch/dist/darkly/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <title>AMART Shop</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href = "index.html"><img src = "images/logo.png"></a>
+        </div>    
+        <div id="header_btn" class="header_btn">
+            <button id = "shopping_cart"><i class="fa fa-shopping-basket"></i></i>Cos de cumparaturi</button>
+            <button id = "admin"><a href = "admin.html"> <i class = "fa fa-user-lock"></i></a> Administrare</button>
+        </div>
+    </header>
+    <hr>
+    <div id="navbar">
+        <div class = "navbar">
+            <div id = "navbar_content">
+                <button><a href = "index.html"><i class="fas fa-home"></i> Acasa</a></button>
+            </div>
+            <div id = "navbar_content">
+                <button><a href = "about_us.html"><i class="fas fa-fan"></i> Despre noi</a></button>
+            </div>
+            <div id = "navbar_content">
+                <button><a href = "#" class = "dropdown_list"><i class="far fa-caret-square-down"></i> Categorii de produse</a></button>
+            </div>
+            <div id = "navbar_content">
+                <button><a href = "contact_us.html"><i class="fas fa-file-signature"></i> Contacteaza-ne!</a></button>
+            </div>
+        </div> 
+    </div>
+    <hr>
+    <div id="product_details"></div>
+    <footer>
+        <hr>
+        <div id="contact">
+            <div class="rights">
+                <br>
+                <h5>2021 Toate drepturile rezervate</h5>
+            </div>
+            <div class="icons">
+                <h5>Urmareste noutatile</h5>
+                <a href = "http://www.facebook.com/amartshop"><i class="fa fa-facebook"></i></a>
+                <a href = "http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <hr>
+    </footer>
+    <script src = "src/app.js" type = "module"></script>
+    <script src = "src/details.js" type = "module"></script>
+    </body>

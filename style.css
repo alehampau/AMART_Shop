@@ -141,16 +141,21 @@ body hr {
     justify-content: center;
     padding-bottom : 5px;
 }
+.card-title-details {
+    display :flex;
+    align-content: center;
+    justify-content: center;
+}
 .card-button {
     padding : 8px;
     margin-left : 40px;
     margin-right : 40px;
-    /* margin-left : 33%; */
     cursor : pointer;
     border-radius : 3px;
     color :  bisque;
     background-color: #265d0c;
     margin-bottom : 5px;
+    font-weight: bold;
 }
 
 a{
@@ -169,8 +174,6 @@ a:visited{
     color : #265d0c;
     text-decoration : none;
 }
-
-
 
 footer hr{
     margin-left : 20px;
@@ -212,16 +215,45 @@ footer hr{
 
 
 /*customize details.html*/
-#product_details { 
-    width: 300px;
-    height: 300px;
-    display: block;
+#product_details{
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-left : 150px;
+}
+
+.card-details { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 20px;
     align-items: center;
+    border : 2px solid brown;
+    padding: 20 80 20 80;
+}
+
+#card-image-details {
+    margin: 10px;
+    border : 1px solid brown;
+    display : flex;
+    justify-content: center;
+    padding : 10px;
+}
+
+#card-content-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 10px;
 }
 
 /*customize contact_us.html*/
 .banner {
 	display: none;
+}
+
+.contact-details {
+    margin-bottom: 20px;
 }
 .contact-page {
 	padding: 40px 0;
@@ -246,6 +278,8 @@ footer hr{
 	margin: auto;
 	padding: 0 10px;
 	overflow: hidden;
+    border : 2px solid brown;
+    border-radius : 5px;
 }
 .contact-form-page {
 	display: block;
@@ -257,10 +291,13 @@ footer hr{
 	padding: 20px 40px;
 	outline: none;
 	color: black;
+    font-weight: bold;
 	transition: 0.5s;
+    border-radius: 5px;
+    padding-bottom: 20px;;
 }
 .contact-form-page:hover {
-	box-shadow: 0 0 10px 4px grey;
+	box-shadow: 0 0 10px 4px gray;
 }
 textarea.contact-form-page {
 	resize: none;
@@ -269,18 +306,19 @@ textarea.contact-form-page {
 p {
 	font-size: 15px;
 }
-.btn {
+.contact-button {
 	margin-left: 180px;
 	border: 0;
-	color: white;
+	color: bisque;
 	font-size: 15px;
-	background: black;
+	background: #265d0c;
 	text-align: center;
 	padding: 10px 10px;
 	border-radius: 20px;
 	cursor: pointer;
 	transition: 0.5s;
 	width: 40%;
+    margin-bottom : 15px;
 }
 #yes-no {
 	margin-left: 80px;
@@ -301,5 +339,65 @@ form p a {
     justify-content:space-between;
     padding : 80px 100px 80px 100px;
     color :#265d0c;
+}
 
+/*customize admin.html*/
+.add-form {
+    border : 2px solid brown;
+    margin-top : 10px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    margin-left : 100px;
+    margin-right : 100px;
+    border-collapse : collapse;
+}
+
+.form-control{
+    margin : 10px;
+    padding : 10px;
+    
+}
+
+#admin-products{
+    margin-top:10px;
+    border : 2px solid brown;
+    margin-left : 100px;
+    margin-right : 100px;
+    /* padding-top : 10px; */
+}
+
+#admin-products-table{
+   border : 1px solid brown;
+   display : block;
+   justify-content: center;
+   /* margin-top : 10px; */
+   border-collapse : collapse;
+   padding-top : 10px;
+   padding-bottom: 10px;;
+}
+
+tbody{
+    border : 2px solid brown;
+}
+
+/* #admin-products-table thead{
+    border : 1px solid brown;
+} */
+tr td {
+    padding-top:10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+tr td img {
+    height : 100px;
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
 }
