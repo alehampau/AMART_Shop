@@ -4,7 +4,8 @@
   "description": "Final project | AMART Shop - Handmade e-shop for personal work",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-db": "json-server --watch api/db.json",
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,11 @@
   "bugs": {
     "url": "https://github.com/alehampau/AMART_Shop/issues"
   },
-  "homepage": "https://github.com/alehampau/AMART_Shop#readme"
+  "homepage": "https://github.com/alehampau/AMART_Shop#readme",
+  "dependencies": {
+    "bootswatch": "^4.6.0",
+    "font-awesome": "^4.7.0",
+    "json-server": "^0.16.3",
+    "serve": "^11.3.2"
+  }
 }

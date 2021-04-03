@@ -1,0 +1,272 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "images/small_400px/favor1.jpg",
+      "title": "Marturie botez - Ingeras zburator",
+      "description": "Surprinde-ti invitatii cu o marturie unica : un ingeras minuntat prevazut cu magnet. Vine imbracat intr-un saculet delicat din organta. Culorile accesoriilor pot varia in functie de preferinte. inainte de a plasa comanda da-ne un email si cere-ne paleta disponibila de culori. totodata te rigam sa iei in calcul  faptul ca aceste marturii necesita mult timp pentru manufacturare si avem nevoie sa plasezi comanda cu cel putin 2 saptamani inate made marele evinment. Multumim! Dimensiune(Lxl) : 10x7cm",
+      "price": 7,
+      "currency": "RON",
+      "quantity": 50
+    },
+    {
+      "id": 2,
+      "image": "images/small_400px/favor2.jpg",
+      "title": "Marturie botez - Micutul ingeras",
+      "description": "Surprinde-ti invitatii cu o marturie unica : un ingeras minuntat prevazut cu magnet. Vine imbracat intr-un saculet delicat din organta. Culorile accesoriilor pot varia in functie de preferinte. inainte de a plasa comanda da-ne un email si cere-ne paleta disponibila de culori. totodata te rigam sa iei in calcul  faptul ca aceste marturii necesita mult timp pentru manufacturare si avem nevoie sa plasezi comanda cu cel putin 2 saptamani inate made marele evinment. Multumim! Dimensiune(Lxl) : 7x5cm",
+      "price": 5,
+      "currency": "RON",
+      "quantity": 55
+    },
+    {
+      "id": 3,
+      "image": "images/small_400px/favor3.jpg",
+      "title": "Marturie botez - Ingeras ghemuit",
+      "description": "Surprinde-ti invitatii cu o marturie unica : un ingeras minuntat prevazut cu magnet. Vine imbracat intr-un saculet delicat din organta. Culorile accesoriilor pot varia in functie de preferinte. inainte de a plasa comanda da-ne un email si cere-ne paleta disponibila de culori. totodata te rigam sa iei in calcul  faptul ca aceste marturii necesita mult timp pentru manufacturare si avem nevoie sa plasezi comanda cu cel putin 2 saptamani inate made marele evinment. Multumim! Dimensiune(Lxl) : 8x5cm",
+      "price": 6,
+      "quantity": 25
+    },
+    {
+      "id": 4,
+      "image": "images/small_400px/favor4.jpg",
+      "title": "Marturie botez - Ingeras visator",
+      "description": "Surprinde-ti invitatii cu o marturie unica : un ingeras minuntat prevazut cu magnet. Vine imbracat intr-un saculet delicat din organta. Culorile accesoriilor pot varia in functie de preferinte. inainte de a plasa comanda da-ne un email si cere-ne paleta disponibila de culori. totodata te rigam sa iei in calcul  faptul ca aceste marturii necesita mult timp pentru manufacturare si avem nevoie sa plasezi comanda cu cel putin 2 saptamani inate made marele evinment. Multumim! Dimensiune(Lxl) : 8x7cm",
+      "price": 6,
+      "currency": "RON",
+      "quantity": 35
+    },
+    {
+      "id": 5,
+      "image": "images/small_400px/wedding1.jpg",
+      "title": "Lumanari cununie religioasa",
+      "description": "Nunta ta trebuie sa fie cea mai reusita, iar noi te ajutam sa o faci sa se intample. Pentru ca detaliile fac diferenta, iti prezentam prima noastra pereche de lumanari decorate cu flori din hartie. Fiecare floare este lucrata manual cu atentie si iubire. Suntem convinsi ca vie adora sa te bucuri de frumusetea acestor lumanari de-a lungul anilor. Casa de piatra! Dimensiuni : Lumanare(Lxl) - 80x10cm, Buchetul de flori Lxlxh) - 50x25x8cm",
+      "price": 350,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "image": "images/small_400px/wedding2.jpg",
+      "title": "Litere decorative Nunta/Botez",
+      "description": "Asa cum spunem mereu : detaliile fac diferenta. Asadar am creat decoratiunea perfecta pentru evenimentul tau. Alege sa adaugi un plus de rafititlent cu literele volumetrice decorate cu flori din hartie. Suntem convinsi ca nu vor trece neobservate. La cerere, se pot realiza pe orice comniatie de culori, dar si pe alte dimensiuni. Inainte de plasarea comenzii, da-ne un email cu data evenimentului si cuvintele pe care le doresti. Dorim sa ne asiguram ca dispunem de timpul necesar pentru a iti crea aceste minunate si unice decoruri pentru eveniment. Dimensiunea aproximativa(Lxlxh) : 30x30x15cm",
+      "price": 40,
+      "quantity": 10
+    },
+    {
+      "id": 7,
+      "image": "images/small_400px/wedding3.jpg",
+      "title": "Cutie pentru verighete",
+      "description": "Verighetele care va vor fi alaturi tot restul vietii merita un loc special pentru marele eveniment din viata voastra. am pregatit o minunata cutie, decorata manual si accesorizata cu pernuta pufoasa.Culorile si dimensiunile pot varia. Contacteaza-ne pentru detalii.Dimensiuni(Lxlxh) : 15x8x7cm",
+      "price": 50,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "image": "images/small_400px/wedding4.jpg",
+      "title": "Pahare decorate pentru nunta",
+      "description": "Primul toasts in calitate de sot si sotie merita amintit mereu. Am decorat pentru mirii nostri paharele de sampanie, pentru ca evenimentul sa aiba un plus de eleganta. In functie de tema aleasa pentru eveniment, decorul poate varia. Contacteaza-ne pentru detalii.",
+      "price": 100,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "image": "images/small_400px/wedding5.jpg",
+      "title": "Buchet de mireasa - Pretty Butterflies",
+      "description": "Iubim florile, dar ADORAM FLUTURII. Ii iubim atat de mult incat i-am adunat pe toti intr-un buchet incredibil si unic de flori care sa te insoteasca in cea mai importanta zi a vietii tale. Si asta nu e tot. Buchetul iti va ramne aproape, amintindu-ti mereu de marele eveniment. La cerere, buchetul se poate crea pe alte combinatii de culori. Contacteaza-ne pentru detalii. Diametru aproximativ : 25cm",
+      "price": 400,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "image": "images/small_400px/decoration6.jpg",
+      "title": "Bicicleta inflorata",
+      "description": "Aceasta decoratiuni iti va aduce primavara in locuinta in orice anotimp. Florile de o calitate eceptionala, vor face ca spiritul primaverii sa te insoteasca mereu, fie ca o adaugi la decorul casei tale sau la birou. Alege aceasta bicicleta pentru urmatorul cadou inspirat marca AMART Shop. Dimensiuni(Lxl) : 15x15cm",
+      "price": 45,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "image": "images/small_400px/earrings1.jpg",
+      "title": "Cercei Swarovski - Stelute",
+      "description": "Completeaza-ti tinuta zilnica cu acesti minunati si finuti cercei cu pietre Swarovski. Accesoriile sunt confectionate din argint 925. Se vor livra in cutie cadou cu un design special. Dimensiuni: 1,5cm",
+      "price": 35,
+      "currency": "RON",
+      "quantity": 2
+    },
+    {
+      "id": 12,
+      "image": "images/small_400px/earrings2.jpg",
+      "title": "Set de bijuterii cu pietre Swarovski - Aurora Boreale",
+      "description": "Daca esti in cautarea unui cadou memorabil, iti recomandam setul de bijuterii cu cristale Swarovski - Aurora Boreale. Datorita configuratiei acestia isi schimba usor culoarea, aducand o nota de eleganta si stil. Accesoriile sunt confectionate din argin 925. Dimensiuni : Cercei - 3cm, Pandant : 3.2cm",
+      "price": 100,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "image": "images/small_400px/earrings3.jpg",
+      "title": "Set de bijuterii cu pietre Swarovski - Briolette",
+      "description": "Aceste bijuterii au fost confectionate pentru a te face sa stralucesti. Sunt micute si discrete dar in acelasi timp stralucesc usor, ceea ce le face irezistibile. Accesoriile sunt confectionate din argin 925. Dimensiuni : Cercei - 1,5cm, Pandant - 2cm",
+      "price": 85,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "image": "images/small_400px/earrings4.jpg",
+      "title": "Cercei cu pietre Swarovski - Light Blue",
+      "description": "Accesorizeaza-ti tinuta cu acesti cercei multicolori. Vor atrage toate privirile si te vor face sa te simti speciala. Accesoriile sunt confectionate din argin 925. Dimensiuni : 1,8cm",
+      "price": 35,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "image": "images/small_400px/earrings5.jpg",
+      "title": "Set de bijuterii Swarovski - Vitraliu",
+      "description": "Cine a spus ca inimile nu pot fi albastre? bucura-te de acest set de bijuteriicu pietre Swarovski oriunde ai merge. Cu siguranta iti vor aduce un plus de stil tinutei tale zilnice. Accesoriile sunt confectionate din argin 925. Dimensiuni : 2.0cm",
+      "price": 120,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "image": "images/small_400px/easter1.jpg",
+      "title": "Decoratiunie pentru masa de Paste",
+      "description": "Sarbatorile Pascale se aproprie. Daca inca nu ai gasit decoratiunea perfecta pentru masa de festiva de sarbatori, iti sugeram aceasta decoratiune handmade unica. Totodata o poti folosi pentru a-ti decora biroul sau o poti oferi cadou unei persoane dragi. Dimensiuni : (Lxl) : 20x10cm",
+      "price": 40,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "image": "images/small_400px/easter2.jpg",
+      "title": "Decoratiune de Pasti - Oul vesel",
+      "description": "Aceasta este decoratiunea noastra preferata pentru Sarbatorile pascale. am realizat cu drag inclusiv oul in care iepurasul sta mandru si fericit. Daca este si preferata ta, te asteptam cu o comanda cat mai repede. Din pacate nu vom putea realiza una identica, asa ca adaug-o in cos acum. Sarbatori fericte!  Dimensiuni : (Lxl) : 23x13cm",
+      "price": 45,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 18,
+      "image": "images/small_400px/easter3.jpg",
+      "title": "Cutie de Pasti",
+      "description": "Sarbatoarea Pascala aduce o data cu ea, fericire si viata. Decoreaza-ti casa cu aceasta cutie unica si bucura-te de persioada sarbatorilor alaturi de cei dragi intr-o ambianta relaxanta si vesela.Sarbatori fericite! Dimensiuni :(Lxlxh) : 20x10x20cm",
+      "price": 50,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 19,
+      "image": "images/small_400px/easter4.jpg",
+      "title": "Oua de paste gigant",
+      "description": "In acest an, adu o nota de prospetime decoratiunilor pe care le folosesti de Paste. Proaspat create, ouale din sfoara colorata, decorate cu flori, flutri si albinute sunt gata sa iti fie alaturi de sarbatori. Le poti atarna la geam sau chiar deasupra mesei festive de Pasti. Care este preferatul tau? Dimensiune (Lxl) : 8x5cm",
+      "price": 7,
+      "currency": "RON",
+      "quantity": 50
+    },
+    {
+      "id": 20,
+      "image": "images/small_400px/easter5.jpg",
+      "title": "Cosulet pentru ouale de Pasti",
+      "description": "Adauga ouale vopsite cu ocazia sarbatorilor pascale in acest cosulet. Ne-am asigurat ca acestea vor sta conpoftabil in stratul gros de iarba de un verde viu. Micuta ratusca se va asigura ca sunt bine pazite si ingrijite pana la masa festiva.Dimensiuni(Lxlxh) : 25x15x15cm",
+      "price": 35,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 21,
+      "image": "images/small_400px/easter6.jpg",
+      "title": "Coronita inflorata",
+      "description": "Decoreaza-ti usa si intampina-ti musafirii cu acesta minunata coronita decorata cu flori vesele si unice. Dimensiune : 30cm",
+      "price": 50,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 22,
+      "image": "images/small_400px/christmas1.jpg",
+      "title": "Coronita vesela pentru usa",
+      "description": "Completeaza-ti decoratiunile de Craciun cu aceasta coronita vesela pentru usa. Diametru aproximativ : 25cm",
+      "price": 40,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 23,
+      "image": "images/small_400px/christmas2.jpg",
+      "title": "Glob transparent personalizat",
+      "description": "Noutate in portofoliul nostru pentru acest sezon - globul transparent personalizat. Adauga bradului tau acest glob personalizat pentru un plus de unicitate si stil. Se potriveste perfect ca si cadou pentru cei dragi. Tot ce trebuie sa faci este sa ne trimiti pe email 2 poze, de restul ne ocupam noi. Nu-i asa ca nu ii poti rezista? Diametru :  10cm",
+      "price": 20,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 24,
+      "image": "images/small_400px/christmas3.jpg",
+      "title": "Omul de zapada nemuritor",
+      "description": "Esti pregatit pentru omul de zapada care nu se topeste niciodata? :) Ei bine, noi am facut asta posibil. Primeste-l in casa pe minunatul Frosty. Iti va inveseli casa si familia. E prietenul cel mai bun al copiilor, fiind in acelasi timp si un cadou inpirat. Te-am facut curios/cuioasa? Dimensiuni(L x l): 85 x 35cm, on a 30cm diameter base",
+      "price": 150,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 25,
+      "image": "images/small_400px/christmas4.jpg",
+      "title": "Fulg de nea margelat",
+      "description": "Decoreaza-ti bradul de Craciun cu o decoratiune handmade minunata. Lucrata cu atentie din margele cilindrice si biconice, aceasta va fi cu siguranta piesa de rezistenta a bradului tau. Suntem convnsi ca nu vei putea comanda doar 1 bucata. Asadar te rugams a plasesi cat mai repede comanda ta pentru a ne asigura ca o vom onora in timp util. Sarbatori fericite! Diametru : 10 cm",
+      "price": 15,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 26,
+      "image": "images/small_400px/decoration1.jpg",
+      "title": "Abajur decorat",
+      "description": "Te-ai mutat intr-o casa nou sau stii pe cineva care a facut asta? Noi avem accesoriul perfect pentru o casa noua si in trenduri. Alege abajurul decorat cu flori si fluturi din hartie pentru un plus de rafititlent. La cerere, se poate realiza si pe alte culori(cablul electric nu este inclus). Diametru : 30 cm",
+      "price": 120,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 27,
+      "image": "images/small_400px/decoration2.jpg",
+      "title": "Cufar mic decorat",
+      "description": "Va prezentam primul cufar decorat din colectia noastra. Desi este mic promite sa pastresze cu mare atentie obiectele dvs. personale, precum bijuteriile, make-up sau chiar monede. Dimensiuni (Lxlxh) : 13x8x5cm",
+      "price": 30,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 28,
+      "image": "images/small_400px/decoration3.jpg",
+      "title": "Meddium Chest",
+      "description": "Primavara a sosit! Pastreaza-ti obiectele personale intr-un cufar vesel si incapator, decorat manual. este protejat cu 2 straturi de lac ecologic pe baza de apa. Dimensiuni(Lxlxh) : 20x10x10cm",
+      "price": 50,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 29,
+      "image": "images/small_400px/decoration4.jpg",
+      "title": "Cufar mare cu maci",
+      "description": "Ei bine, daca erai in cautarea unui cufar perfect, acesta este. avand dimensiuni generoase , acesta poate pastra de la bijuterii, la make-up si diferite obiecte personale. Design-ul unic il va face sa imbunatateazsca biroul sau comoda pe care este amplasat. Dimensiuni(Lxlxh) : 35x20x20cm",
+      "price": 90,
+      "currency": "RON",
+      "quantity": 1
+    },
+    {
+      "id": 30,
+      "image": "images/small_400px/decoration5.jpg",
+      "title": "Oglinda cu maci",
+      "description": "Oglinda, oglinjoara! Cine e cea mai frumoasa din tara? - stim cu siguranta ca cea mai frumoasa din tara este acea femeie care se va oglindi in aceasta magnifica oglina decorata cu maci multicolori. Bucura-te de ea in rutina ta zilnica sau adaug-o in decoraul camerei tale. De asemenea, poate fi un cadou inspirat pentru o ocazie speciala. Dimensiuni(Lxl) : 30x30cm",
+      "price": 100,
+      "currency": "RON",
+      "quantity": 1
+    }
+  ]
+}
