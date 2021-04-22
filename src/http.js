@@ -5,14 +5,13 @@ class customHTTPMethods {
         return data;
         }
 
-
     async post(url, product){
         const response = await fetch(url, {
             method : 'POST',
             headers : {
                 'Contant-type' : 'application/json',
             },
-        body : JSON.stringify(product),
+        body : JSON.stringify(product)
     });
     const data = await response.json();
     return data;
@@ -25,7 +24,7 @@ class customHTTPMethods {
                 'Contant-type' : 'application/json',
             }
     });
-    const data = await 'Product deleted';
+    const data = await response.json();
     return data;
     }
 }        

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <title>AMART Shop</title>
+</head>
+<header>
+    <div class="logo">
+        <a href = "index.html"><img src = "images/logo.png"></a>
+    </div>    
+    <div id="header_btn" class="header_btn">
+        <a href="cart.html" id = "shopping_cart"><i class="fa fa-shopping-basket" id="showProducsInCart"></i>Cos de cumparaturi</a>
+    
+        <!-- <button id = "admin" href="admin.html"><i class="fa fa-user-lock"></i> Administrare</button> -->
+        
+        <a href = "admin.html" id = "admin_page"><i class="fas fa-users-cog"></i>Administrare</a>
+    </div>
+</header>
+<hr>
+<div id="navbar">
+    <div class = "navbar">
+        <div id = "navbar_content">
+            <a href = "index.html"><i class="fas fa-home"></i> Acasa</a>
+        </div>
+        <div id = "navbar_content">
+            <a href = "about_us.html"><i class="fas fa-fan"></i> Despre noi</a>
+        </div>
+        <!-- <div id = "navbar_content">
+            <a href = "#" class = "dropdown_list"><i class="far fa-caret-square-down"></i> Categorii de produse</a>
+        </div> -->
+        <div id = "navbar_content">
+            <a href = "contact_us.html"><i class="fas fa-file-signature"></i> Contacteaza-ne!</a>
+        </div>
+    </div> 
+</div>
+<hr> 
+<br> 
+    <div id="cart-products">
+        <table id= "cart-products-table">
+            <thead>
+                <tr>
+                    <th>Imagine</th>
+                    <th>Titlu</th>
+                    <th>Pret</th>
+                    <th>Cantitate</th>
+                    <th>Subtotal</th>
+                    <th><i class="fas fa-trash-alt"></i></th>
+                </tr>
+            </thead>
+            <tbody id="table-cart">
+            </tbody>   
+        </table>
+        
+    </div>
+    <br>
+    <p id="total">Total : </p>
+    <br>
+    <footer>
+        <br>
+        <hr>
+        <br>
+        <div id="contact">
+            <br>
+            <h5><i class="far fa-copyright"></i>2021 Toate drepturile rezervate</h5>
+            <div class="icons">
+                <a href = "https://www.linkedin.com/in/alexandra-hampau-7425b9182/"><i class="fab fa-linkedin-in"></i></a>
+                <a href = "https://github.com/alehampau"><i class="fab fa-github-square"></i></a>
+                <a href = "http://www.facebook.com/amartshop"><i class="fab fa-facebook"></i></a>
+                <a href = "http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <br>
+        <hr>
+    </footer>
+    <script src = "src/app.js" type = "module"></script>  
+    <script src = "src/details.js" type = "module"></script>
+    <script src = "src/cart.js" type = "module"></script>
+</body>
+</html>

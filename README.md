@@ -12,3 +12,10 @@ Alexandra Hampau
 
 `$npm init`
 
+### Install JSON server
+
+`$ npm install --save json-server`
+`$ npm install -g json-server`
+
+### Start JSON server
+` $ json-server --watch api/db.json`

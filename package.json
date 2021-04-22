@@ -35,6 +35,8 @@
     "bootswatch": "^4.6.0",
     "font-awesome": "^4.7.0",
     "json-server": "^0.16.3",
-    "serve": "^11.3.2"
+    "local-storage": "^2.0.0",
+    "serve": "^11.3.2",
+    "sweetalert2": "^10.16.0"
   }
 }
