@@ -39,7 +39,7 @@ class UI {
 
     showDetails(product) {
         let output = '';
-        output += `<div class = "card-details">
+        output = `<div class = "card-details">
                     <div id = "card-image-details">
                         <img src = "${product.image}" class = "card-img-det">
                     </div>
@@ -123,7 +123,7 @@ class UI {
                     <tr class = "cart-rows">
                         <td><img src="${item.product.image}" class="admin-card-img"/></td>
                         <td><button onclick="window.location.href='details.html?id=${item.product.id}'">${item.product.title}</button></td> 
-                        <td>${item.product.price}</td>
+                        <td>${item.product.price} RON</td>
                         <td><input value=${item.count} id="quantity" type="number" min="1" max="10"</td>
                         <td id="subtotal">${item.product.price*item.count} RON</td>
                         <td><button id=${item.product.id} type="button" class="card-button delete">Sterge produs</button></td>
