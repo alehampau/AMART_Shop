@@ -1,12 +1,12 @@
 class customHTTPMethods {
     async get(url){
-        const response = await fetch(url='https://api.jsonbin.io/b/6086f736c7df3422f7fe53a7');
+        const response = await fetch(url);
         const data = await response.json();
         return data;
         }
 
     async post(url, product){
-        const response = await fetch(url='https://api.jsonbin.io/b/6086f736c7df3422f7fe53a7', {
+        const response = await fetch(url, {
             method : 'POST',
             headers : {
                 'Contant-type' : 'application/json',
@@ -18,7 +18,7 @@ class customHTTPMethods {
     }
 
     async delete(url){
-        const response = await fetch(url='https://api.jsonbin.io/b/6086f736c7df3422f7fe53a7', {
+        const response = await fetch(url, {
             method : 'DELETE',
             headers : {
                 'Contant-type' : 'application/json',
