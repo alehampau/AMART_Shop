@@ -5,7 +5,7 @@ import { ui } from './ui.js';
 document.addEventListener('DOMContentLoaded', getProducts);
 
 function getProducts(){
-    httphttp://localhost:3000/products
+    http
         .get('https://6086fafca3b9c200173b759b.mockapi.io/products')
         .then((data) => ui.showProducts(data));
 }
