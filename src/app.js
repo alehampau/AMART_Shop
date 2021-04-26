@@ -5,8 +5,8 @@ import { ui } from './ui.js';
 document.addEventListener('DOMContentLoaded', getProducts);
 
 function getProducts(){
-    http
-        .get('http://localhost:3000/products')
+    httphttp://localhost:3000/products
+        .get('https://6086fafca3b9c200173b759b.mockapi.io/products')
         .then((data) => ui.showProducts(data));
 }
 
@@ -30,18 +30,18 @@ function addNewProduct() {
     };
 
     http
-        .post('http://localhost:3000/products', product)
+        .post('https://6086fafca3b9c200173b759b.mockapi.io/products', product)
         .then((data) => getProducts());
 }
 
-
+//delete products
 document.getElementById('admin-products').addEventListener('click', deleteProduct);
 
 function deleteProduct(e) {
     if(e.target.classList.contains('delete')) {
         const id = e.target.id;
         http
-        .delete(`http://localhost:3000/products/${id}`)
+        .delete(`https://6086fafca3b9c200173b759b.mockapi.io/products/${id}`)
         .then((data) => getProducts())
         .catch('Error on delete!')
     }
