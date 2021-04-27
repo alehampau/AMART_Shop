@@ -29,7 +29,7 @@ class UI {
                 <div id = "card-details">
                     <h4 class = "card-title">${product.title} </h4>
                     <p class = "card-price">Pret : ${product.price} lei</p>
-                    <button onclick="window.location.href='details.html?id=${product.id}'" type="button" class="card-button">Detalii</button>
+                    <button onclick="location.href='details.html?id=${product.id}'" type="button" class="card-button">Detalii</button>
                 </div>       
             </div>
             `;
@@ -71,32 +71,17 @@ class UI {
                     count = 1;
                 }
                 addProductsInLocalStorage(product, count);
-                // const Toast = Swal.mixin({
-                //     toast: true,
-                //     position: 'top',
-                //     showConfirmButton: false,
-                //     timer: 1000,
-                //     timerProgressBar: true,
-                //     didOpen: (toast) => {
-                //       toast.addEventListener('mouseenter', Swal.stopTimer)
-                //       toast.addEventListener('mouseleave', Swal.resumeTimer)
-                //     }
                     Swal.fire(
                         'Ai adaugat produsul in cos',
                         'Continua cumparaturile'
                       );
                   })
-                  
-                //   Toast.fire({
-                //     icon: 'success',
-                //     title: 'Produsul a fost adauga in cos!'
-                //   })
     }
 
     showAdminProducts(products) {
         let output = '';
         products.forEach((product) => {
-            output = `
+            output += `
             <table id="admin-products-table">
             <tbody id="table-admin"> 
                 <tr>
@@ -110,7 +95,7 @@ class UI {
             </tbody> 
             </table>   
             `;
-            this.tableAdmin.innerHTML += output;
+            this.tableAdmin.innerHTML = output;
         });
     };
 
@@ -162,68 +147,3 @@ class UI {
 
 export const ui = new UI();
 
-// document.getElementById('addProduct').addEventListener('click', addNewProduct);
-
-//     function addNewProduct() {
-//         const imageValue = document.getElementById('image').value;
-//         const titleValue = document.getElementById('title').value;
-//         const descriptionValue = document.getElementById('description').value;
-//         const priceValue = document.getElementById('price').value;
-//         const stockValue = document.getElementById('quantity');
-
-//         let newProduct = {
-//             image : imageValue,
-//             title : titleValue,
-//             description : descriptionValue,
-//             price : priceValue,  
-//             stock : stockValue
-//         };
-
-//         http
-//             .post('http://localhost:3000/products', newProduct)
-//             .then((data) => ui_admin.getProducts());
-//     }
-
-
-
-        
-
-
-// class UI_Admin {
-//     constructor() {
-//         this.adminDiv = document.getElementById('admin-products');
-//         // this.admin_products = document.getElementById('admin_products')
-//         this.title_admin = document.getElementById('title');
-//         this.price_admin = document.getElementById('price');
-//         this.image_admin = document.getElementById('image');
-//         this.description_admin = document.getElementById('description');
-//         this.id_admin = document.getElementById('id');
-//     }
-//     showAdminProducts() {
-//         let output = '';
-//         adminDiv.forEach((ui_admin) => {
-//             output += `
-//             <tbody id="table-body"> 
-//                 <tr class = 'row'>
-//                     <td>${ui_admin.image_admin}</td>
-//                     <td>${ui_admin.title_admin}</td>
-//                     <td>${ui.admin.price_admin}</td>
-//                     <td><input type="button" class="removeBtn">Remove</button></td>
-//                 </tr>
-//             </tbody>    
-//             `;
-//             this.adminDiv.innerHTML += output;
-//         });
-//     }
-// }
-
-
-
-//se poate adauga showSucces si showError pt adatgare/stergere produse
-
-//clearfields
-
-
-
-
-// export const ui_admin = new UI_Admin();

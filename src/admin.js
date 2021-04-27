@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', getProducts);
 
 function getProducts(){
     http
-        .get('http://localhost:3000/products')
+        .get('https://6086fafca3b9c200173b759b.mockapi.io/products')
         .then((data) => ui.showAdminProducts(data));
 }
 

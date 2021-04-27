@@ -47,7 +47,6 @@ function checkPhoneNo(phoneInput) {
 
   function checkMessage(e) {
       textareaValue = e.target.value;
-      // console.log(textareaValue);
       if (textareaValue.length > 20) {
           textarea.style.border = '2px solid green';
          } else if (textareaValue.length > 1000) {
