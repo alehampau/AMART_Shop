@@ -7,7 +7,7 @@ Final project of FrontEndWebDevelopment course - online E-commerce platform
 ### Author
 
 Alexandra Hampau
-### Project init
+<!-- ### Project init
  Initialize npm project configuration
 
 `$npm init`
@@ -18,4 +18,7 @@ Alexandra Hampau
 `$ npm install -g json-server`
 
 ### Start JSON server
-` $ json-server --watch api/db.json`
+` $ json-server --watch api/db.json` -->
+
+### Direct link
+`https://amartshop.netlify.app/`
