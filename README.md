@@ -21,4 +21,4 @@ Alexandra Hampau
 ` $ json-server --watch api/db.json` -->
 
 ### Direct link
-`https://amartshop.netlify.app/`
+https://amartshop.netlify.app/
